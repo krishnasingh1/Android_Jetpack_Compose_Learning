@@ -33,7 +33,7 @@ fun TextComposableFun() {
 
 @Preview(showBackground = true)
 @Composable
-fun Text() {
+fun Text1() {
     Column(modifier = Modifier.fillMaxSize()) {
         Text(
             text = "Hello Android!",
@@ -122,14 +122,14 @@ fun CustomText2() {
 fun CustomText3() {
     Text(
         buildAnnotatedString {
-            withStyle(
+           withStyle(
                 style = ParagraphStyle(
                     textAlign = TextAlign.Center
                 )
             ) {
                 withStyle(
                     style = SpanStyle(
-                        color = Color.Blue,
+                        color =Color.Blue,
                         fontSize = 30.sp,
                         fontWeight = FontWeight.Bold
                     )
