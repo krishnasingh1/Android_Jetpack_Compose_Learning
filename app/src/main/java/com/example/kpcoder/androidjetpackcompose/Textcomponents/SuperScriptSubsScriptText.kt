@@ -1,4 +1,4 @@
-package com.example.kpcoder.androidjetpackcompose.components
+package com.example.kpcoder.androidjetpackcompose.Textcomponents
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column

@@ -1,4 +1,4 @@
-package com.example.kpcoder.androidjetpackcompose.components
+package com.example.kpcoder.androidjetpackcompose.Textcomponents
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.selection.DisableSelection
 import androidx.compose.foundation.text.selection.SelectionContainer
-import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.material.Text
 import androidx.compose.ui.Modifier
