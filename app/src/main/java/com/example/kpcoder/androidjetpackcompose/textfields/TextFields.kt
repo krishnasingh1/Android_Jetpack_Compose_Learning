@@ -41,7 +41,7 @@ fun TextFields() {
         ) {
             SimpleTextField()
             Spacer(modifier = Modifier.height(10.dp))
-            OutlinedTextField()
+            OutlinedTextFields()
             Spacer(modifier = Modifier.height(10.dp))
             BasicTextField()
         }
@@ -98,7 +98,7 @@ fun SimpleTextField() {
 
 @Preview
 @Composable
-fun OutlinedTextField() {
+fun OutlinedTextFields() {
 
     Column(
         modifier = Modifier
