@@ -27,10 +27,10 @@ fun MyComposable() {
 
 }
 
-@Preview
+@Preview(showBackground = true)
 @Composable
 fun CharacterCountTextFields() {
-    Column() {
+    Column {
         var name by remember {
             mutableStateOf("")
         }
