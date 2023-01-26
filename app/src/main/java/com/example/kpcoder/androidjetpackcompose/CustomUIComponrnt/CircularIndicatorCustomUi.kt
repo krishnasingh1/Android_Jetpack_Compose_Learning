@@ -35,7 +35,7 @@ fun CircularIndicator(
     backgroundIndicatorStrokeWidth: Float = 100f,
     foregroundIndicatorColor: Color = MaterialTheme.colors.primary,
     foregroundIndicatorStrokeWidth: Float = 100f,
-    indicatorStrokeCap: StrokeCap = StrokeCap.Round,
+    //indicatorStrokeCap: StrokeCap = StrokeCap.Round,
     bigTextFontSize: TextUnit = MaterialTheme.typography.h3.fontSize,
     bigTextColor: Color = MaterialTheme.colors.onSurface,
     bigTextSuffix: String = "GB",
@@ -86,14 +86,14 @@ fun CircularIndicator(
                 componentSize = componentSize,
                 indicatorColor = backgroundIndicatorColor,
                 indicatorStrokeWidth = backgroundIndicatorStrokeWidth,
-                indicatorStrokeCap = indicatorStrokeCap
+                //indicatorStrokeCap = indicatorStrokeCap
             )
             foregroundIndicator(
                 sweepAngle = sweepAngle,
                 componentSize = componentSize,
                 indicatorColor = foregroundIndicatorColor,
                 indicatorStrokeWidth = foregroundIndicatorStrokeWidth,
-                indicatorStokeCap = indicatorStrokeCap
+                //indicatorStokeCap = indicatorStrokeCap
             )
         },
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -116,7 +116,7 @@ fun DrawScope.backgroundIndicator(
     componentSize: androidx.compose.ui.geometry.Size,
     indicatorColor: Color,
     indicatorStrokeWidth: Float,
-    indicatorStrokeCap: StrokeCap,
+   // indicatorStrokeCap: StrokeCap,
 ) {
     drawArc(
         size = componentSize,
@@ -142,7 +142,7 @@ fun DrawScope.foregroundIndicator(
     componentSize: androidx.compose.ui.geometry.Size,
     indicatorColor: Color,
     indicatorStrokeWidth: Float,
-    indicatorStokeCap: StrokeCap,
+   // indicatorStokeCap: StrokeCap,
 ) {
     drawArc(
         size = componentSize,
